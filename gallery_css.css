@@ -1,0 +1,150 @@
+.logo{
+    margin-top: 0px;
+    margin-left:0px;
+}
+
+.heading{
+    margin-top:0px;
+    padding:0px;
+    height:50px;
+    text-align:center;
+    color:white;
+    font-size: 30px;
+    font-family: 'Permanent Marker';
+}
+
+.menu{
+    position:relative;
+    top: 10px;
+    left: 200px;
+    height:50px;
+    font-size: 24px;
+    cursor: pointer;
+    width:80.6%;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding-top: 25px;
+    margin-left:0px;
+}
+
+.menu ul li a{
+    position:relative;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top:0px;
+    padding:0px;
+}
+
+.menu ul li a:hover{
+    color: #FF2626;
+}
+
+footer{
+    width:100%;
+    height: 360px;
+    background-color:#FF2626;
+    margin-top: 100px;
+    opacity:1;
+}
+footer ul{
+    padding:8px;
+}
+.welcome{
+    position: absolute;
+    left: 50px;
+    margin-top: 35px;
+}
+
+.timing{
+    position:absolute;
+    left: 580px;
+    margin-top: 35px;
+}
+
+.address{
+    position: absolute;
+    left:1050px;
+    margin-top: 30px;
+}
+
+.developer{
+    position: absolute;
+    left: 475px;
+    margin-top: 335px;
+    color: white;
+    font-size: 17px;
+}
+.vl {
+  border-left: 1.8px solid white;
+  height: 275px;
+  position: absolute;
+  margin-left: 452px;
+  top: 0px;
+}
+
+.about{
+    background-color: #101138;
+    height: 165px;
+    color: white;
+    margin-top: 20px;
+    font-size: 24px;
+    margin-bottom: 80px;
+}
+
+.HEAD{
+    position: absolute;
+    font-size: 35px;
+    font-weight: 500;
+    left: 250px;
+    top: 220px;
+}
+
+.content{
+    margin-top: 20px;
+}
+
+.content p{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+.visionmissionhead{
+    color: #060f4f;
+    margin-top: 40px;
+    font-size: larger;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.vision{
+    background-color: #f5e6a6;
+    position: absolute;
+    top: 820px;
+    margin-left: 5px;
+    margin-top: 5px;
+    padding: 13px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.mission{
+    background-color: #61c4f2;
+    position: absolute;
+    top: 1050px;
+    margin-left: 5px;
+    margin-top: 50px;
+    padding: 13px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+
+}

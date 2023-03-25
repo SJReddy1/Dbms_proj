@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AISTA | Wrestling</title>
+    <link rel="stylesheet" href="wrestling_css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+
+<body style:'opacity:1;'>
+    <div class="content">
+        <div position='relative'>
+          <img src="images\blury-table-designify.png" style="position:absolute;margin-left:185px;height:100px;width:110px;">
+        </div>
+        <div class="heading" style='background-color:#FF2626;opacity:1;'>
+          ALL INDIA SPORTS TRAINING ACADEMY
+        </div>
+        <div class="menu" style="opacity:0.8;">
+          <ul style="margin-top:0px;padding-top:6px;">
+                <b>
+                    <li style="margin-left:380px;margin-top:4px;">|<a href="homepage.html"> Home </a>|</li>
+          <li style="margin-left:2px;margin-top:4px"><a href="about.html"> About </a>|</li>
+          <li style="margin-left:2px;margin-top:4px"><a href="achievements.html"> Achievements </a>|</li>
+          <li style="margin-left:2px;margin-top:4px"><a href="apply.html"> Apply </a>|</li>
+          <li style="margin-left:2px;margin-top:4px"><a href="facility.html"> Facility </a>|</li>
+          <li style="margin-left:2px;margin-top:4px"><a href="gallery.html"> Gallery </a>|</li>
+          <li style="margin-left:2px;margin-top:4px"><a href="contact.html"> Contact </a>|</li>
+        </b>
+            </ul>
+        </div>
+        <div
+            style="position:absolute;padding-top:0px; top: 50px;margin-left:0px;height:50px;width:185px;font-size:24px;background-color:white;opacity:0.97;">
+        </div>
+    </div>
+    <br>
+
+    <div class="about">
+        <div class="HEAD">WRESTLING</div>
+    </div>
+
+    <div class="contentmain">
+        <li>International standard wrestling hall with four wrestling mats..</li>
+        <li> Multi gym with upper and lower body exercise station,<br> Wrestling dummies , Rowing ergo-meters.</li>
+        <li> Multimedia room with video analysis equipment.</li>
+        <li>Foreign coaches for Greco Roman & Free Style.</li>
+        <li> Steam & sauna bath for recovery.</li>
+        <li>Selected and trained for district, state and national level championship. </li>
+    </div>
+
+    <div class="imageslider" style="position:absolute;right:95px;height:280px;width:470px;">
+        <img class="mySlides"
+            src="images/jr world wrestling championship participant manjeet practicing under mr. igor lariovnov from uzbekistan5.jpg"
+            style="width:100%">
+        <img class="mySlides" src="images/Wrestler_at_Multi_Gym4.jpg" style="width:100%">
+        <img class="mySlides" src="images/world class wrestling hall with 4 wrestling mats.jpg" style="width:100%">
+        <img class="mySlides" src="images/Sr._Elite_Wrestlers_Practicing_with_Vertical_Rope6.jpg" style="width:100%">
+        <img class="mySlides" src="images/sports cadet sandeep asian wrestling bronze medalist 1.jpg"
+            style="width:100%">
+        <img class="mySlides" src="images/Cadet_World_Wrestling_Championship_Bronze_Medalist_Sports_Cadet_Mangal3.jpg"
+            style="width:100%">
+    </div>
+
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 3000); // Change image every 3 seconds
+        }
+    </script>
+
+
+    <footer>
+        <div class="welcome">
+            <img src='images\blury-table-designify.png' alt="Image" height="140" width="160">
+            <span style="color: white;font-size: 20px;"><br><br>Welcome to AIST Academy. It is <br> a leading sports
+                academy in Jabalpur,<br>providing training for different sports <br> for the aspirants to achieve their
+                goals.<br> </span>
+            <div class="vl"></div>
+        </div>
+        <div class="timing">
+            <span style="color: white;font-size: 25px;">Training Time: <br></span>
+            <hr style="width:55%;margin-left:0px;">
+            <br><span style="color: white;font-size: 20px;">Morning: &emsp; &emsp; 6.30 am - 8.30 am<br>
+                <br>Evening: &emsp; &emsp; 4.00 pm - 6.00 pm<br><br>
+                Sun: &emsp; &emsp; &emsp; &ensp; Closed<br></span>
+            <div class="vl" style="margin-left:390px;"></div>
+        </div>
+
+        <div class="address">
+            <span style="color: white;font-size: 25px;">Office Address:<br></span>
+            <hr style="color:black;width:45%;margin-left:0px;">
+            <br><span style="color: white;font-size: 20px;">All India Sports Training Academy,<br>Airport Rd, PDPM
+                IIITDM Jabalpur Campus, <br>Khamaria, Jabalpur, Madhya Pradesh 482005
+                <br><br>mob: 076127 94094 Fax: +91-761-2632524<br>
+                <br>Email id: aista21@gmail.com<br></span>
+
+        </div>
+        <div class="developer">Web team- Adarsh Kumar, Soreddy Jitendra Reddy</div>
+
+    </footer>
+
+
+
+</body>
+
+</html>

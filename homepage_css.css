@@ -1,0 +1,147 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url("11601243773vx3.jpeg");
+    font-family: 'Permanent Marker';
+}
+
+.logo{
+    margin-top: 0px;
+    margin-left:0px;
+}
+
+.heading{
+    margin-top:0px;
+    padding:0px;
+    height:50px;
+    text-align:center;
+    color:white;
+    font-size: 30px;
+    font-family: 'Permanent Marker';
+}
+
+.menu{
+    position:relative;
+    top: 0px;
+    margin-left: 295px;
+    height:50px;
+    font-size: 27px;
+    background-color:white;
+    cursor: pointer;
+    width:80.6%;
+    font-family:Bebas Neue;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding-top: 25px;
+    margin-left:0px;
+}
+
+.menu ul li a{
+    position:relative;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top:2px;
+    padding:0px;
+}
+
+.menu ul li a:hover{
+    color: #FF2626;
+}
+
+div.gallary{
+    margin-left: 20px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 145px;
+    margin-bottom: 20px;
+    opacity:0.8;
+    padding-bottom:0px;
+}
+div.gallary:hover {
+    border: 1px solid #777;
+}
+
+div.gallary img {
+    width: 100%;
+    height: auto;
+    background-color:white;
+}
+div.desc {
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+    font-size: large;
+    color: black;
+    width:135px;
+}
+footer{
+    width:100%;
+    height: 410px;
+    background-color:#FF2626;
+    margin-top:539px;
+    opacity:1;
+    font-family:Bebas Neue;
+    font-size:25px;
+}
+footer ul{
+    padding:8px;
+}
+.welcome{
+    position: absolute;
+    left: 50px;
+    margin-top: 35px;
+}
+
+.timing{
+    position:absolute;
+    left: 560px;
+    margin-top: 35px;
+}
+
+.address{
+    position: absolute;
+    left:1050px;
+    margin-top: 30px;
+}
+
+.developer{
+    position: absolute;
+    left: 520px;
+    margin-top: 385px;
+    color: white;
+    font-size: 17px;
+}
+.vl {
+  border-left: 1.8px solid white;
+  height: 330px;
+  position: absolute;
+  margin-left: 445px;
+  top: 0px;
+}
+.para{
+  position:relative;
+  background-color:#FF2626;
+  margin-top:105px;
+  width:320px;
+  margin-left:200px;
+  opacity:0.5px;
+  color:white;
+  font-family:Bebas Neue;
+}
+.para2{
+  position:relative;
+  background-color:#FF2626;
+  margin-top:105px;
+  width:320px;
+  margin-left:625px;
+  opacity:0.5px;
+  color:white;
+  font-family:Bebas Neue;
+}

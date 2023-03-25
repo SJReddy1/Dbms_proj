@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AISTA | Athletics</title>
+    <link rel="stylesheet" href="athletics_css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+
+<body style:'opacity:1;'>
+    <div class="content">
+        <div position='relative'>
+            <img src="images\blury-table-designify.png"
+                style="position:absolute;margin-left:185px;height:100px;width:110px;">
+        </div>
+        <div class="heading" style='background-color:#FF2626;opacity:1;length:250px;'>
+            ALL INDIA SPORTS TRAINING ACADEMY
+        </div>
+        <div class="menu" style="opacity:0.97;">
+            <ul style="margin-top:0;padding-top:6px;">
+                <b>
+                    <li style="margin-left:380px;margin-top:4px;">|<a href="homepage.html"> Home </a>|</li>
+          <li style="margin-left:2px;margin-top:4px"><a href="about.html"> About </a>|</li>
+          <li style="margin-left:2px;margin-top:4px"><a href="achievements.html"> Achievements </a>|</li>
+          <li style="margin-left:2px;margin-top:4px"><a href="apply.html"> Apply </a>|</li>
+          <li style="margin-left:2px;margin-top:4px"><a href="facility.html"> Facility </a>|</li>
+          <li style="margin-left:2px;margin-top:4px"><a href="gallery.html"> Gallery </a>|</li>
+          <li style="margin-left:2px;margin-top:4px"><a href="contact.html"> Contact </a>|</li>
+        </b>
+            </ul>
+        </div>
+        <div
+            style="position:absolute;padding-top:0px; top: 50px;margin-left:0px;height:50px;width:185px;font-size:24px;background-color:white;opacity:0.97;">
+        </div>
+    </div>
+    <br>
+
+    <div class="about">
+        <div class="HEAD">ATHLETICS</div>
+    </div>
+
+    <div class="contentmain">
+        <li>International standard 400 mtr. synthetic track.</li>
+        <li>2 km cross country / warm up track.</li>
+        <li>Foreign coaches for various events.</li>
+        <li>Trained sports masseur for recovery & rehabilitation.</li>
+        <li>Multi gym.</li>
+        <li>Steam, sauna bath & ice machine.</li>
+        <li>Indoor throws training area.</li>
+        <li>Ice bathing tubs for recovery.</li>
+        <li>Flood lit system for night training.</li>
+        <li>Selected and trained for district, state and national level championship. </li>
+    </div>
+
+    <div class="imageslider" style="position:absolute;right:95px;height:280px;width:470px;">
+        <img class="mySlides" src="images/3000_Meters_Steeplechase_Athletes_in_Action_Championship2012_05.jpg" style="width:100%">
+        <img class="mySlides" src="images/world class synthetic track01.jpg" style="width:100%">
+        <img class="mySlides" src="images/Gym08.jpg" style="width:100%">
+        <img class="mySlides" src="images/Long-jump_Pit06.jpg" style="width:100%">
+        <img class="mySlides" src="images/Coaching_through_Video_Analysing_Techniques07.jpg" style="width:100%">
+        <img class="mySlides" src="images/Rahul_Kumar_Pal_Won_2_Gold_medals_in_Jr_Asian02.jpg" style="width:100%">
+        <img class="mySlides" src="images/Rajesh_Kumar_Javelin_Thrower03.jpg" style="width:100%">
+        <img class="mySlides" src="images/south asian games gold medalist and present national topper jitin thomas 04.jpg" style="width:100%">
+    </div>
+
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 3000); // Change image every 3 seconds
+        }
+    </script>
+
+
+    <footer>
+        <div class="welcome">
+            <img src='images\blury-table-designify.png' alt="Image" height="140" width="160">
+            <span style="color: white;font-size: 20px;"><br><br>Welcome to AIST Academy. It is <br> a leading sports
+                academy in Jabalpur,<br>providing training for different sports <br> for the aspirants to achieve their
+                goals.<br> </span>
+            <div class="vl"></div>
+        </div>
+        <div class="timing">
+            <span style="color: white;font-size: 25px;">Training Time: <br></span>
+            <hr style="width:55%;margin-left:0px;">
+            <br><span style="color: white;font-size: 20px;">Morning: &emsp; &emsp; 6.30 am - 8.30 am<br>
+                <br>Evening: &emsp; &emsp; 4.00 pm - 6.00 pm<br><br>
+                Sun: &emsp; &emsp; &emsp; &ensp; Closed<br></span>
+            <div class="vl" style="margin-left:390px;"></div>
+        </div>
+
+        <div class="address">
+            <span style="color: white;font-size: 25px;">Office Address:<br></span>
+            <hr style="color:black;width:45%;margin-left:0px;">
+            <br><span style="color: white;font-size: 20px;">All India Sports Training Academy,<br>Airport Rd, PDPM
+                IIITDM Jabalpur Campus, <br>Khamaria, Jabalpur, Madhya Pradesh 482005
+                <br><br>mob: 076127 94094 Fax: +91-761-2632524<br>
+                <br>Email id: aista21@gmail.com<br></span>
+
+        </div>
+        <div class="developer">Web team- Adarsh Kumar & Soreddy Jitendra Reddy</div>
+
+    </footer>
+
+
+
+</body>
+
+</html>
