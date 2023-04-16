@@ -2,4 +2,4 @@
 
  It was my DBMS PROJECT to make "ALL INDIA SPORTS TRAINING ACADEMY"
  
- Used htmal, css, php and mysql.
+ Used html, css, php and mysql.
